@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-image: url(../imag/download.jpeg);
+}
+
+b {
+    color: white;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+}
+
+div:hover {
+    box-shadow: 0 0 15px #860c0c;
+    transform: scale(1.1);
+}
+
+div {
+    background: rgba(255, 253, 253, 0.562);
+    padding: 6px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: 0 0 8px #9370db, 0 0 15px #9370db;
+    margin-top: 20px;
+}
