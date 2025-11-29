@@ -38,4 +38,49 @@ h2 {
     letter-spacing: 3px;
     text-shadow: 0 0 8px #9370db, 0 0 15px #9370db;
     margin-top: 20px;
+
+}
+/* الصندوق اللي فيه الوصف */
+.projects-description {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 0;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+}
+
+/* العنوان */
+.projects-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* النص */
+.projects-description p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+}
+
+/* تأثير احترافي خفيف تحت البوكس */
+.projects-description::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -8px;
+    width: 70%;
+    height: 12px;
+    background: rgba(0,0,0,0.1);
+    filter: blur(12px);
+    border-radius: 50%;
 }
